@@ -11,18 +11,30 @@ h1 {
 }    
 
 .card-container {
+    position: relative;
+    top: 100px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-@media all and (max-width: 760px){
+@media all and (max-width: 500px){
     .card-container {
         /*width: 100%;*/
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .card-container .sedan {
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+
+    .card-container .luxury {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
     }
 }
 .sedan {
@@ -30,8 +42,8 @@ h1 {
     font-weight: 400;
     background-color: hsl(31, 77%, 52%);
     padding: 45px;
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     width: 235px;
     height: 380px;
 }
@@ -49,8 +61,8 @@ h1 {
     font-family: Lexand, Deca;
     font-weight: 400;
     background-color: hsl(179, 100%, 13%);
-    border-bottom-left-radius: 1px;
-    border-bottom-right-radius: 1px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     padding: 45px;
     width: 235px;
     height: 380px;
