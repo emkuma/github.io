@@ -1,29 +1,33 @@
 body {
     margin: 0 auto;
-    font-size: 15px;
+    
     display: flex;
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 1125px;
+    width: 1440px;
 }
 
 h1 {
-    line-height: 2rem;
-    font-family: "Big Shoulders Display";
-    font-weight: 700;
-    color: hsla(0, 0%, 100%, 0.75); 
+    line-height: 1em;
+    font-family: 'Big Shoulders Display';
+    font-weight: 600;
+    font-size: 40px;
+    color: hsla(0, 0%, 100%, 1); 
+    text-transform: uppercase;
 }    
 
 .card-container {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    min-height: 
+    justify-content: center; 
 }
 
-@media all and (max-width: 500px){
+@media all and (max-width: 600px){
     .card-container {
         /*width: 100%;*/
         display: flex;
@@ -34,49 +38,52 @@ h1 {
     .card-container .sedan {
         border-top-right-radius: 8px;
         border-bottom-left-radius: 0;
-        max-height: 380px;
-    }
+     }
 
-    .card-container .suv {
-        max-height: 380px;
-    }
-    
     .card-container .luxury {
         border-top-right-radius: 0;
         border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
-        max-height: 380px;
+        border-bottom-right-radius: 8px;      
     }
 }
 .sedan {
-    font-family: Lexand Deca;
-    font-weight: 400;
+    font-family: Lexend Deca;
+    font-weight: 300;
     background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    letter-spacing: 0.9px;
     padding: 45px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    width: 235px;
-    height: 380px;
+    width: 220px;
+    height: 400px;
 }
 
 .suv {
-    font-family: Lexand, Deca;
-    font-weight: 400;
+    font-family: Lexend Deca;
+    font-weight: 300;
     background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    letter-spacing: 0.9px;
     padding: 45px;
-    width: 235px;
-    height: 380px;
+    width: 220px;
+    height: 400px;
 }
 
 .luxury {
-    font-family: Lexand, Deca;
-    font-weight: 400;
+    font-family: Lexend Deca;
+    font-weight: 300;
     background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    letter-spacing: 0.9px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 45px;
-    width: 235px;
-    height: 380px;
+    width: 220px;
+    height: 400px;
 }
 
 .buttonstyle {
