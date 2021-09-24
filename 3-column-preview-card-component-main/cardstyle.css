@@ -1,12 +1,11 @@
 body {
+    width: 1440px;
+    height: 100vh;
     margin: 0 auto;
-    
     display: flex;
     background-color: hsl(0, 0%, 95%);
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 1440px;
+    align-items: center;   
 }
 
 h1 {
@@ -20,16 +19,18 @@ h1 {
 
 .card-container {
     font-family: 'Lexend Deca';
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding: 45px;
     display: flex;
-    flex-direction: row;
     justify-content: center; 
 }
 
 @media all and (max-width: 600px){
     .card-container {
-        /*width: 100%;*/
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,43 +47,38 @@ h1 {
         border-bottom-right-radius: 8px;      
     }
 }
+
 .sedan {
-    font-family: Lexend Deca;
-    font-weight: 300;
+    /*font-family: Lexend Deca;
+    font-weight: 300;*/
     background-color: hsl(31, 77%, 52%);
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.5;
-    letter-spacing: 0.9px;
     padding: 45px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    width: 220px;
+    width: 230px;
     height: 400px;
 }
 
 .suv {
-    font-family: Lexend Deca;
-    font-weight: 300;
+    /*font-family: Lexend Deca;
+    font-weight: 300;*/
+    padding: 45px;
     background-color: hsl(184, 100%, 22%);
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.5;
-    letter-spacing: 0.9px;
-    padding: 45px;
-    width: 220px;
+    width: 230px;
     height: 400px;
 }
 
 .luxury {
-    font-family: Lexend Deca;
-    font-weight: 300;
+    /*font-family: Lexend Deca;
+    font-weight: 300;*/
     background-color: hsl(179, 100%, 13%);
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.5;
-    letter-spacing: 0.9px;
+    padding: 45px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    padding: 45px;
-    width: 220px;
+    width: 230px;
     height: 400px;
 }
 
