@@ -16,19 +16,26 @@ body {
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.9px;
-    padding: 45px;
+    padding: 45px 75px 45px 45px;
     display: flex;
     justify-content: center; 
 }
 
 .card-container h1 {
-    line-height: 1em;
+    line-height: 3.0em;
     font-family: 'Big Shoulders Display';
     font-weight: 600;
-    font-size: 40px;
+    font-size: 37px;
     color: hsla(0, 0%, 100%, 1); 
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0
 }    
+
+.card-container p {
+    margin-top: 0;
+    margin-bottom: 65px;
+}
 
 
 .sedan {
