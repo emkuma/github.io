@@ -22,7 +22,7 @@ body {
 }
 
 .card-container h1 {
-    line-height: 3.0em;
+    line-height: 3.7em;
     font-family: 'Big Shoulders Display';
     font-weight: 600;
     font-size: 37px;
@@ -75,8 +75,10 @@ body {
 .buttonstyle {
     border: 0;
     line-height: 3;
-    padding: 0 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 1rem;
+    font-weight: 600;
     text-align: center;
     border-radius: 25px;
     color: hsla(0, 0%, 100%, 0.55); 
