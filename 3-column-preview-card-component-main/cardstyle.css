@@ -14,14 +14,16 @@ body {
     font-family: 'Lexend Deca';
     font-weight: 300;
     font-size: 15px;
-    line-height: 1.5;
-    letter-spacing: 0.9px;
-    padding: 45px 75px 45px 45px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    padding-left: 40px;
     display: flex;
     justify-content: center; 
 }
 
 .card-container h1 {
+    height: 125px;
     line-height: 3.7em;
     font-family: 'Big Shoulders Display';
     font-weight: 600;
@@ -29,12 +31,12 @@ body {
     color: hsla(0, 0%, 100%, 1); 
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
 }    
 
 .card-container p {
     margin-top: 0;
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 }
 
 
