@@ -18,7 +18,7 @@ body {
 }
 
 .card-container h1 {
-    height: 125px;
+    height: 130px;
     line-height: 3.7em;
     font-family: 'Big Shoulders Display';
     font-weight: 600;
@@ -27,6 +27,7 @@ body {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 0;
 }    
 
 .card-container p {
@@ -44,7 +45,7 @@ body {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     width: 230px;
-    height: 400px;
+    height: 410px;
 }
 
 .suv {
@@ -54,7 +55,7 @@ body {
     background-color: hsl(184, 100%, 22%);
     color: hsla(0, 0%, 100%, 0.75);
     width: 230px;
-    height: 400px;
+    height: 410px;
 }
 
 .luxury {
@@ -64,11 +65,11 @@ body {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     width: 230px;
-    height: 400px;
+    height: 410px;
 }
 
 .buttonstyle {
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     border: 0;
     line-height: 3;
     padding-left: 30px;
@@ -93,7 +94,7 @@ body {
 }
 
 .buttonstyle-sedan a:hover {
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .buttonstyle-suv a {
