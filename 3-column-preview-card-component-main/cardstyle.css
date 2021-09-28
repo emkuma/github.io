@@ -2,13 +2,8 @@ body {
     width: 1440px;
     height: 100vh;
     margin: 0 auto;
-    /*display: flex;*/
     background-color: hsl(0, 0%, 95%);
-    /*justify-content: center;
-    align-items: center;*/   
 }
-
-
 
 .card-container {
     font-family: 'Lexend Deca';
@@ -63,8 +58,6 @@ body {
 }
 
 .luxury {
-    /*font-family: Lexend Deca;
-    font-weight: 300;*/
     background-color: hsl(179, 100%, 13%);
     color: hsla(0, 0%, 100%, 0.75);
     padding: 55px;
@@ -75,6 +68,7 @@ body {
 }
 
 .buttonstyle {
+    background-color: white;
     border: 0;
     line-height: 3;
     padding-left: 30px;
@@ -82,24 +76,61 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
-    border-radius: 25px;
-    color: hsla(0, 0%, 100%, 0.55); 
+    border-radius: 25px; 
 }
 
-.link-1 {
+.buttonstyle a {
+    text-decoration: none;
+}
+
+.buttonstyle-sedan a {
     color: hsl(31, 77%, 52%);
-    text-decoration: none;
 }
 
-.link-2 {
+.buttonstyle-sedan:hover {
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.buttonstyle-sedan a:hover {
+    color: white;
+}
+
+.buttonstyle-suv a {
     color: hsl(184, 100%, 22%);
-    text-decoration: none;
 }
 
-.link-3 {
-    color: hsl(179, 100%, 13%);
-    text-decoration: none;
+.buttonstyle-suv:hover {
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
 }
+
+.buttonstyle-suv a:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.buttonstyle-luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+.buttonstyle-luxury:hover {
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color:hsl(179, 100%, 13%);
+}
+
+.buttonstyle-luxury a:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width: 700px){
     .card-container {       
